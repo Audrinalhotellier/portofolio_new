@@ -1,0 +1,184 @@
+html,body {
+  font-family:bodoni MT;
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  font-size: 2em;
+}
+
+@media only screen and (max-width : 320px) {
+		body {
+    background-color: blue;
+    color: white;
+    
+}
+	
+    #anim {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        animation: apparition 1s ease 0s 1 normal forwards;
+		margin-bottom:60vh;
+    }
+    #prenom{
+		font-size: 15px;
+		display: block;
+		text-align:center;
+		}
+		
+		#caca {
+	font-size: 80px;
+	font-family:cambria;
+	display: block;
+    margin-left: auto;
+    }
+}
+
+@media only screen and (min-width : 321px) and (max-width : 767px){
+		body {
+    background-color: blue;
+    color: white;
+    
+}
+	
+    #anim {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        animation: apparition 1s ease 0s 1 normal forwards;
+		margin-bottom:60vh;
+    }
+    #prenom{
+		font-size: 15px;
+		display: block;
+		text-align:center;
+		}
+		
+		#caca {
+	font-size: 80px;
+	font-family:cambria;
+	display: block;
+    margin-left: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+	body {
+    background-color: #1a1a1a;
+    color: white;
+    
+}
+	
+    #anim {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        animation: apparition 1s ease 0s 1 normal forwards;
+		margin-bottom:60vh;
+    }
+    #prenom{
+		font-size: 20px;
+		display: block;
+		text-align:center;
+		}
+		
+		#caca {
+	font-size: 80px;
+	font-family:cambria;
+	display: block;
+    margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+	body {
+    background-color: #1a1a1a;
+    color: white;
+    
+}
+	
+    #anim {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        animation: apparition 1s ease 0s 1 normal forwards;
+		margin-bottom:60vh;
+    }
+    #prenom{
+		font-size: 40px;
+		display: block;
+		text-align:center;
+		}
+		
+		#caca {
+	font-size: 75px;
+	font-family:cambria;
+	display: block;
+    margin-left: auto;
+    }
+	
+}
+@media only screen 
+and (min-width : 1024px) and (max-width: 1823px) {
+	body {
+    background-color: orange;
+    color: white;
+    
+}
+	
+    #anim {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        animation: apparition 1s ease 0s 1 normal forwards;
+		margin-bottom:60vh;
+    }
+    #prenom{
+		font-size: 20px;
+		display: block;
+		text-align:center;}
+		
+	#caca {
+	font-size: 80px;
+	font-family:cambria;
+	display: block;
+    margin-left: auto;
+    }
+}
+@media only screen and (min-width : 1824px) {
+		body {
+    background-color: #1a1a1a;
+    color: white;
+    
+}
+	
+    #anim {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        animation: apparition 1s ease 0s 1 normal forwards;
+		margin-bottom:60vh;
+    }
+    #prenom{
+		font-size: 20px;
+		display: block;
+		text-align:center;
+		}
+		
+		#caca {
+	font-size: 80px;
+	font-family:cambria;
+	display: block;
+    margin-left: auto;
+    }
+}

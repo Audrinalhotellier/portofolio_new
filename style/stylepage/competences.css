@@ -1,0 +1,375 @@
+@media only screen and (max-width: 767px) {
+		body {
+    background-color: #1a1a1a;
+    font-family: "font", Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+		margin-top:30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+
+    #description {
+		 margin-top: 64px;
+        width: 300px;
+        height: 500px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 25px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        border-radius: 30px;
+    }
+	
+	#textepresentation{
+		margin-top:35px;
+	}
+	
+	.retour{
+		 width: 40px;
+        height: 36px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+		body {
+    background-color: #1a1a1a;
+    font-family: "font", Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+		
+    
+    #containerlogo {
+		margin-top:30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+       width: 80px;
+        height: 80px;
+        margin-right: 32px;
+    }
+
+   
+	 #description {
+		  margin-top: 64px;
+        width: 550px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+		border-radius: 30px;
+    }
+	#textepresentation{
+		margin-top:25px;
+	}
+	.retour{
+		 width: 40px;
+        height: 36px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
+		body {
+    background-color: #1a1a1a;
+    font-family: "font", Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+		margin-top:30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+       width: 80px;
+        height: 80px;
+        margin-right: 32px;
+    }
+
+    #description {
+        margin-top: 64px;
+		 width: 400px;
+        height: 550px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 60px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+		border-radius: 30px;
+    }
+	#textepresentation{
+		margin-top:25px;
+	}
+	.retour{
+		 width: 40px;
+        height: 36px;
+	}
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width: 1823px){
+		body {
+    background-color: #1a1a1a;
+    font-family: "font", Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+        text-align: center;
+    }
+    
+    main {
+        margin-top: 12.5vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 64px;
+        height: 64px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 80px;
+        height: 80px;
+        margin-right: 32px;
+    }
+	#description {
+		 width: 400px;
+        height: 360px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+		border-radius: 30px;
+    }
+	#textepresentation{
+		margin-top:40px;
+	}
+	
+	.retour{
+		 width: 40px;
+        height: 36px;
+	}
+}
+
+@media only screen 
+and (min-width : 1824px){
+		body {
+    background-color: #1a1a1a;
+    font-family: "font", Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+    header {
+        margin-top: 5vh;
+        animation: apparition 1s ease 0s 1 normal forwards;
+    }
+    
+    main {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        opacity: 0;
+        animation: apparition 1s ease 1s 1 normal forwards;}
+    
+    #containerlogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #infographie {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    #infographie > img {
+        width: 128px;
+        height: 128px;
+        margin-right: 32px;
+    }
+    
+    #integration {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+    
+    #integration > img {
+        width: 128px;
+        height: 128px;
+        margin-right: 32px;
+    }
+	#description {
+        margin-top: 64px;
+		width: 700px;
+        height: 700px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 40px;
+        font-family: "roboto", arial, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+		border-radius: 30px;
+    }
+	.retour{
+		 width: 40px;
+        height: 36px;
+	}
+}
